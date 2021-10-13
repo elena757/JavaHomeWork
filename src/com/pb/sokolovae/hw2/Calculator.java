@@ -1,5 +1,4 @@
-package com.pb.sokolovae.hw1.hw2;
-
+package com.pb.sokolovae.hw2;
 import java.util.Scanner;
 
 public class Calculator {
@@ -37,8 +36,6 @@ public class Calculator {
                     result = operand1 / operand2;
                     System.out.println(result);
                 }
-
-
         }
     }
 }
