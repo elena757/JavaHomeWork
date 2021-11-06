@@ -25,6 +25,17 @@ public class Cat extends Animal {
     public void eat() {
         System.out.println(nameAnimal + " по кличке " + nickname + " любит кушать " + food);
     }
+
+    @Override
+    public String toString() {
+        return "Cat{"
+                + "nickname='" + nickname + '\''
+                + ", nameAnimal=" + nameAnimal + '\''
+                + ", food=" + food + '\''
+                + ", location=" + location + '\''
+                + '}';
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
