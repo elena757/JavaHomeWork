@@ -32,6 +32,17 @@ public class Dog extends Animal {
         System.out.println(nickname + " любит кушать " + food);
     }
     @Override
+    public String toString() {
+        return "Dog{"
+                + "breed='" + breed + '\''
+                + ", sound=" + sound + '\''
+                + ", makeSound=" + makeSound + '\''
+                + ", nickname=" + nickname + '\''
+                + ", food=" + food + '\''
+                + ", location=" + location + '\''
+                + '}';
+    }
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Dog)) return false;

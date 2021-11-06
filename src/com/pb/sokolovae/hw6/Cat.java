@@ -30,7 +30,7 @@ public class Cat extends Animal {
     public String toString() {
         return "Cat{"
                 + "nickname='" + nickname + '\''
-                + ", nameAnimal=" + nameAnimal + '\''
+                + ", sound=" + sound + '\''
                 + ", food=" + food + '\''
                 + ", location=" + location + '\''
                 + '}';

@@ -25,6 +25,15 @@ public class Horse extends Animal {
         System.out.println(nameAnimal + " любит кушать " + food);
     }
     @Override
+    public String toString() {
+        return "Horse{"
+                + "color='" + color + '\''
+                + ", sound=" + sound + '\''
+                + ", food=" + food + '\''
+                + ", location=" + location + '\''
+                + '}';
+    }
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Horse)) return false;
